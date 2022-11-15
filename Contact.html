@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Electronics</title>
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  
+
+</head>
+
+<body id="top" >
+
+  <!--- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+      <div class="overlay" data-overlay></div>
+      <a href="home.html" class="logo">
+        <h2>The Electronics</h2> 
+      </a>
+  <!--- #Button -->
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+  <!--- #Nav -->
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <h2>The Electronics</h2>
+        </a>
+
+          <!--- #Nav-Center-List -->
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="home.html" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="Item.html" class="navbar-link">Items</a>
+          </li>
+          <li class="navbar-item">
+            <a href="Contact.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+          <!--- #Nav-side-list -->
+        <ul class="nav-action-list">
+
+          <button class="btn-secondary ">
+            <span>Login</span>
+          </button>
+
+          <button class="btn-secondary ">
+            <span>Register</span>
+          </button>
+
+          <li>
+            <a href="#" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                <!--- #Login/Signup -->
+              <span class="nav-action-text">Login / Register</span>
+            </a>
+          </li>
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+              <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+<!--- #CONTACT- -->
+<main id="footerSection">
+  <article>
+    <footer class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-link-contact" style="align-items: center;
+          display: flex;
+          justify-content: center;" >
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title" style="text-align: center;">Contact Us</p>  
+              </li>
+  
+              <!--- #CONTACT-ADDRESS -->
+              <li>
+                <address class="footer-link">
+                  <ion-icon name="location"></ion-icon>
+                  <span class="footer-link-text">
+                    Birchwood House Ballytruckle Road Waterford X91 py0y
+                  </span>
+                </address>
+              </li>
+              <!--- #CONTACT-PHONE-NO -->
+              <li>
+                <a href="tel:+353 20 913 7030" class="footer-link">
+                  <ion-icon name="call"></ion-icon>
+  
+                  <span class="footer-link-text">+353 20 913 7030</span>
+                </a>
+              </li>
+              <!--- #CONTACT-MAIL -->
+              <li>
+                <a href="mailto:ibriya@gmail.com" class="footer-link">
+                  <ion-icon name="mail"></ion-icon> 
+                  <span class="footer-link-text">The@gmail.com</span>
+                </a>
+              </li>          
+            </ul>
+  
+          </div>
+
+          <!--- #GOOGLE-MAP -->
+          <div class="footer-list">
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77816.01458320899!2d-6.582896273779466!3d52.447435093417624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486804f04a314287%3A0x6d01d1f8192a8e64!2sBirchwood%20House!5e0!3m2!1sen!2s!4v1668017931290!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+          </div>
+  
+        </div>
+      </div>
+    </footer>
+
+  </article>
+</main>
+
+
+
+
+
+<!--- #FOOTER -->
+<footer class="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="footer-link-box">
+        <!--- #ACCOUNT-SECTION--2 -->
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">My Account</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <span class="footer-link-text">My Account</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <span class="footer-link-text">View Cart</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <span class="footer-link-text">Wishlist</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <span class="footer-link-text">Compare</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+              <span class="footer-link-text">New Products</span>
+            </a>
+          </li>
+
+        </ul>
+        <!--- #TIMING-SECTION- -->
+        <div class="footer-list">
+          <p class="footer-list-title">Opening Time</p>
+          <table class="footer-table">
+            <tbody>
+              <tr class="table-row">
+                <th class="table-head" scope="row">Mon - Tue:</th>
+                <td class="table-data">8AM - 10PM</td>
+              </tr>
+              <tr class="table-row">
+                <th class="table-head" scope="row">Wed:</th>
+                <td class="table-data">8AM - 7PM</td>
+              </tr>
+              <tr class="table-row">
+                <th class="table-head" scope="row">Fri:</th>
+                <td class="table-data">7AM - 12PM</td>
+              </tr>
+              <tr class="table-row">
+                <th class="table-head" scope="row">Sat:</th>
+                <td class="table-data">9AM - 8PM</td>
+              </tr>
+              <tr class="table-row">
+                <th class="table-head" scope="row">Sun:</th>
+                <td class="table-data">Closed</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="footer-list">
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">The Electronics</p>
+            </li>
+          </ul>
+          <!--- #SOICAL-ICONS-LIST -->
+          <ul class="social-list">
+            <!--- #SOICAL-ICON-1 -->
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <!--- #SOICAL-ICON-2 -->
+            <li>
+              <a href="https://twitter.com/i/flow/login" target="_blank" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <!--- #SOICAL-ICON-3 -->
+            <li>
+              <a href="https://www.pinterest.com/login/" target="_blank" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+            <!--- #SOICAL-ICON-4 -->
+            <li>
+              <a href="https://www.linkedin.com/login" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+<!--- #FOOTER---->
+  <div class="footer-bottom">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022 <a href="#" class="copyright-link">The Electronics</a>. All Rights Reserved
+      </p>
+
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+<!--- #GOT TO TOP-ICON- -->
+<a href="#top" class="go-top-btn" data-go-top>
+  <ion-icon name="arrow-up-outline"></ion-icon>
+</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
