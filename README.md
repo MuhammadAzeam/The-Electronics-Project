@@ -20,5 +20,8 @@ The content of the website is such built to target every kind of audiance.
 - **Social Media links** for the user who wants to rate the service and products.  
 - **Opening times**  
 # Testing  
-## HTML Valdiation  
+## HTML Valdation  
 ![HTML validation](https://user-images.githubusercontent.com/74425464/202367249-5a8a3db4-9392-497f-b00c-514b6c7ce224.jpg)  
+## CSS Validation  
+![CSS validation](https://user-images.githubusercontent.com/74425464/202367936-ad4bc050-56c1-487c-86cd-3fd6538389ed.jpg)  
+## Performance  
