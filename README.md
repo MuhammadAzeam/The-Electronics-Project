@@ -19,9 +19,12 @@ The content of the website is such built to target every kind of audiance.
 - **New Products** wil take the user to section which has the items which are just arrived in the store or new in the markete.  
 - **Social Media links** for the user who wants to rate the service and products.  
 - **Opening times**  
-# Testing  
-## HTML Valdation  
+## Testing  
+### HTML Valdation  
 ![HTML validation](https://user-images.githubusercontent.com/74425464/202367249-5a8a3db4-9392-497f-b00c-514b6c7ce224.jpg)  
-## CSS Validation  
+### CSS Validation  
 ![CSS validation](https://user-images.githubusercontent.com/74425464/202367936-ad4bc050-56c1-487c-86cd-3fd6538389ed.jpg)  
-## Performance  
+### Performance  
+![performance report](https://user-images.githubusercontent.com/74425464/202368364-eb3f3d98-c24d-4891-96c0-432c5614b53a.jpg)  
+### Accessibility  
+![Accessibility](https://user-images.githubusercontent.com/74425464/202368604-a4916d05-0064-499c-a6d5-37250db190a5.jpg)
