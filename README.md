@@ -28,3 +28,6 @@ The content of the website is such built to target every kind of audiance.
 ![performance report](https://user-images.githubusercontent.com/74425464/202368364-eb3f3d98-c24d-4891-96c0-432c5614b53a.jpg)  
 ### Accessibility  
 ![Accessibility](https://user-images.githubusercontent.com/74425464/202368604-a4916d05-0064-499c-a6d5-37250db190a5.jpg)
+## Cloud Deployment and webhosting  
+[gtihub repository](https://github.com/MuhammadAzeam/The-Electronics-Project)  
+[cloud hosting](https://muhammadazeam.github.io/The-Electronics-Project/)
